@@ -2,4 +2,4 @@
 
 [Bro code's Python Full Course](https://www.youtube.com/watch?v=ix9cRaBkVe0&list=LL&index=2&t=80s)
 
-i am currently at 5:58:00 and going to complete bank system in next class.
+i am currently at 8:07:00 and going to start decorator in next class.
