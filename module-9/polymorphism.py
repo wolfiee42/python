@@ -1,6 +1,6 @@
 from abc import ABC , abstractmethod
 
-class Shape:
+class Shape(ABC):
     
     @abstractmethod
     def area(self):
@@ -24,7 +24,7 @@ class Square(Shape):
         return self.side ** 2
 
 
-class Rechangle(Shape):
+class Rectangle(Shape):
     
     def __init__(self, width, height):
         self.width = width
@@ -41,7 +41,7 @@ class Pizza(Circle):
     
         
 
-shapes = [Circle(4), Square(5), Rechangle(6, 7), Pizza(4, "chesse")]
+shapes = [Circle(4), Square(5), Rectangle(6, 7), Pizza(4, "chesse")]
 
 for shape in shapes:
     print(f" {shape.area()} cm^2")
